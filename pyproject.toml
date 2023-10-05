@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mental memoirs"
+version = "v1"
+description = "This is a app for those who are struggling with mental health issues"
+authors = ["nidhi-2619 <91557785+nidhi-2619@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.6"
+djangorestframework = "^3.14.0"
+pymongo = "^4.5.0"
+flake8 = "^6.1.0"
+isort = "^5.12.0"
+Pillow = "^10.0.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
